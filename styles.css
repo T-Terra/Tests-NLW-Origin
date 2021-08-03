@@ -16,6 +16,7 @@ img {
 
 /*==== VARIAVEIS ===============================*/
 :root {
+  --color: red;
 }
 
 /*==== BASE ===============================*/
@@ -25,6 +26,11 @@ body {
 
 h1 {
   font: 700 1.875rem "Poppins", sans-serif;
+  color: var(--color);
+}
+
+.button {
+  color: var(--color);
 }
 
 /*==== LAYOUT ===============================*/
